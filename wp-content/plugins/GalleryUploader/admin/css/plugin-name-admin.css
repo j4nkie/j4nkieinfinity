@@ -1,0 +1,65 @@
+:root {
+    --black: #000;
+    --white: #FFF;
+    --white2: #f0f0f0;
+    --semitransparent: #00000015;
+    --semitransparentsecond: #0000002a;
+    --lightlytransparent: #00000080;
+    --whitefont: #E0E0E0;
+    --whitesecondfont: #ffffff4b;
+    --darksecondfont: #0000004b;
+    --color1: #04080F;
+    --accent1: #507DBC;
+    --accent2: #06D6A0;
+    --fail1: #BD5153;
+    --mainfontsize: medium;
+    --secondfontsize: small;
+    --namingfontsize: 30px;
+    --radius: 10px;
+    --gradient: linear-gradient(to right, #507DBC 0, #06D6A0 100%) no-repeat;
+
+    --dark1: #1f1f1f;
+    --dark2: #252525;
+}
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+  input[type=number] {
+      -moz-appearance:textfield;
+  }
+  input[type="text"], input[type="password"], input[type="number"], select, textarea, input[type="tel"] {
+    background-color: var(--semitransparent);
+    padding: 0 10px;
+    height: 40px;
+    max-width: 500px;
+    border-radius: var(--radius);
+  }
+  input[type="submit"] {
+    height: 40px;
+    max-width: 500px;
+    border-radius: var(--radius);
+  }
+  input[type="file"] {
+    display: none;
+  }
+  .mainbtn {
+    padding: 0 20px;
+    min-height: 40px;
+    max-width: 500px;
+    border-radius: var(--radius);
+  }
+  .secondbtn {
+    background-color: var(--semitransparent);
+    min-height: 40px;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: var(--radius);
+  }
+  .failure {
+    background-color: var(--fail1);
+    color: var(--white);
+  }
